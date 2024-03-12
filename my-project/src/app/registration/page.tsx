@@ -17,7 +17,7 @@ export default function Registration() {
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   return (
-    // <div className={styles.box}>
+     <div className={styles.box}>
     <div className={styles.parent}>
           <h1 className={styles.heading}>
       Registration Page
@@ -57,6 +57,6 @@ export default function Registration() {
       </div>
       <button className={styles.btnLogin}>Login</button>
       </div>
-      // </div>
+      </div>
   )
 }
